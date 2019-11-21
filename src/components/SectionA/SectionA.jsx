@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../SectionA/Search.jsx";
+import Search from "./Search.jsx";
 
 function SectionA() {
   return (
