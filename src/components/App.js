@@ -9,13 +9,19 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Dashboard from "./Dashboard/Dashboard.jsx";
 import Header from "./Header/Header.jsx";
+import Register from './Register/Register';
 
 function App() {
   return (
     <div className="container-fluid">
       <Header />
-      <Dashboard />
+      {/* <Dashboard /> */}
+      
       <Switch>
+        
+      {/* <Route path="/" component={Dashboard} /> */}
+
+      <Route path="/register" component={Register} />
         {/* <Route exact path="/" component={Dashboard} /> */}
         {/* <Route path="/about" component={AboutPage} />
         <Route path="/courses" component={CoursesPage} />
