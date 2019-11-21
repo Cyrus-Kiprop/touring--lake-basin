@@ -10,6 +10,7 @@ import { ToastContainer } from "react-toastify";
 import Dashboard from "./Dashboard/Dashboard.jsx";
 import Header from "./Header/Header.jsx";
 import Register from './Register/Register';
+import Contact from './contact/Contact.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <Route path="/" component={Dashboard} /> */}
 
       <Route path="/register" component={Register} />
+      <Route path="/contact" component={Contact} />
         {/* <Route exact path="/" component={Dashboard} /> */}
         {/* <Route path="/about" component={AboutPage} />
         <Route path="/courses" component={CoursesPage} />

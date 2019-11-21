@@ -154,3 +154,33 @@
   width: 120px;
   text-align: center;
 }
+.contact_form {
+  display: flex;
+  justify-content: center;
+}
+.form_header {
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+i {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.contact_phone {
+  text-align: center;
+}
+.contact_email {
+  text-align: center;
+}
+.contact_location {
+  text-align: center;
+}
+.message_form {
+  background-color: #F3F3F3;
+}
+.contact {
+  margin-top:15px;
+}
