@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../Header/Header.jsx";
 import SectionA from "./SectionA.jsx";
+import SectionB from "../sectionB/SectionB.jsx";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="main-content">
       <SectionA />
+      <SectionB />
     </div>
   );
 };
