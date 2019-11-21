@@ -1,8 +1,145 @@
-#app {
-  max-width: 850px;
-  margin: 0 auto;
+@import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.main_content {
+  /* width: 100vw; */
+
+  height: 100vh;
 }
 
-nav {
-  padding: 20px 0 20px 0;
+.section-one {
+  background-image: url(/src/images/Kisumu_Sunset.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  height: 600px;
+  padding: 0 100px;
+  /* background-position: left top; */
+}
+.welcome-headers {
+  /* margin: 0 100px; */
+}
+
+.welcome-headers h2 {
+  padding: 100px 0 15px 0;
+  font-weight: bolder;
+  font-size: 3em;
+}
+.welcome-headers h3 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 7px;
+  padding-bottom: 30px;
+}
+
+.welcome-headers h5 {
+  font-size: 1.1em;
+  font-weight: 20px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.section-search-btn {
+  display: flex;
+  margin-top: 30px;
+}
+
+.section-dropdown {
+  height: 60px;
+}
+
+.section-search-btn input {
+  height: 60px;
+  background: white;
+  border: none;
+  width: 300px;
+  border-right: 0.5px solid rgba(128, 128, 128, 0.39);
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+
+.section-search-btn button {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  width: 300px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 0px;
+}
+.section-search-btn button:hover {
+  background-color: white;
+  color: gray;
+}
+
+.section-search-btn button[type="submit"] {
+  background: #f85959;
+  width: 120px;
+  color: white;
+}
+
+.commision-btns {
+  border: none;
+  margin: 70px 0;
+}
+
+.commision-btns button {
+  margin-right: 10px;
+  line-height: 2em;
+  width: auto;
+  border: none;
+  color: gray;
+  font-size: 0.9em;
+  background: white;
+  padding: 10px 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.commision-btns button:hover {
+  background: #f85959;
+}
+
+.commision-btns button i {
+  padding-right: 5px;
+  font-size: 1.5em;
+  color: rgb(133, 80, 231);
+}
+
+/*  SECTION TWO CONTAINER  */
+.section-two-container {
+  color: f8faff;
+  /* height: 600px; */
+  height: auto;
+  padding: 0 100px;
+  display: flex;
+  background-color: rgba(72, 105, 105, 0.233);
+  /* background-position: left top; */
+}
+
+.advert-card {
+  background: white;
+  border: none;
+  margin-right: 20px;
+  position: relative;
+  border-radius: 4px;
+  top: -45px;
+  width: 250px;
+  -webkit-box-shadow: -1px 3px 38px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 38px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 3px 38px -13px rgba(0, 0, 0, 0.75);
+}
+/* Adverts cards responsive */
+@media only screen and (max-width: 760px) {
+  .advert-card {
+    background-color: rgb(99, 131, 141);
+    flex-wrap: wrap;
+    flex-basis: auto;
+  }
 }
