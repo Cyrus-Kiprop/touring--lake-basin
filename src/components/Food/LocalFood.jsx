@@ -38,7 +38,7 @@ function LocalFood() {
                     <CardSubtitle>{meal.description}</CardSubtitle>
                     {meal.nutrition &&
                       meal.nutrition.map((compound, index) => (
-                        <CardText key={index}>compound</CardText>
+                        <CardText key={index}>{compound}</CardText>
                       ))}
                   </CardBody>
                 </Card>
