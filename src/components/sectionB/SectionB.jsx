@@ -27,7 +27,9 @@ const SectionB = props => {
             Enjoy great cuisine and meals prepaired by our local Kisumu women
           </CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>
+            <h4>Explore</h4>
+          </Button>
         </CardBody>
       </Card>
       <Card className="advert-card" align="center">
@@ -44,7 +46,11 @@ const SectionB = props => {
             Some quick example text to build on the card title and make up the
             bulk of the cards content.
           </CardText>
-          <Button>Button</Button>
+          <Button>
+            <h4>
+              Explore <i className="fas-fa-arrow"></i>
+            </h4>
+          </Button>
         </CardBody>
       </Card>
       <Card className="advert-card" align="center">
