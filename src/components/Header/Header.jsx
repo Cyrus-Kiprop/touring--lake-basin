@@ -18,18 +18,18 @@ function Header() {
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a href="index.html" className="nav-link">
+                <a href="/" className="nav-link">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a href="about.html" className="nav-link">
+                <a href="/about" className="nav-link">
                   About
                 </a>
               </li>
               <li className="nav-item">
                 <a href="tour.html" className="nav-link">
-                  Tour
+                  Places
                 </a>
               </li>
               <li className="nav-item">
@@ -43,7 +43,7 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="contact.html" className="nav-link">
+                <a href="/contact" className="nav-link">
                   Contact
                 </a>
               </li>
