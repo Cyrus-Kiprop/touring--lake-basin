@@ -20,7 +20,7 @@ class Login extends React.Component {
       handleSubmit(e) {
         e.preventDefault();
         if (this.state.username === loginData[0].username && this.state.password === loginData[0].password) {
-            console.log('Succesfully logged in')
+            this.props.history.push("/");
         } else {
             console.log("Sorry try again");
         }
