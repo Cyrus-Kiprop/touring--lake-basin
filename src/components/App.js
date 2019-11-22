@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Dashboard from "./Dashboard/Dashboard.jsx";
 import Header from "./Header/Header.jsx";
+import Login from './login-register/Login.jsx';
 import LocalFood from "./Food/LocalFood.jsx";
 import SectionA from "./SectionA/SectionA.jsx";
 import PackageDetails from "./packages/PackageDetails.jsx";
@@ -22,6 +23,11 @@ function App() {
       {/* <SectionA /> */}
 
       <Switch>
+      <Route path="/login" component={Login} />
+        <Route exact path="/" component={Dashboard} />
+        {/* <Route path="/about" component={AboutPage} />
+        <Route path="/courses" component={CoursesPage} />
+        <Route path="/course/:slug" component={ManageCoursePage} />
         <Route exact path="/" component={Dashboard} />
         <Route path="/local-food" component={LocalFood} />
         <Route path="/view-package" component={PackageDetails} />

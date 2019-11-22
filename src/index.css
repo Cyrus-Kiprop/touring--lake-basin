@@ -586,3 +586,9 @@
   width: 300px;
   height: 130px;
 }
+
+.login {
+  width: 60%;
+  border-radius: solid 3px;
+  background-color: white;
+}    
