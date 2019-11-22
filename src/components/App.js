@@ -9,6 +9,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Dashboard from "./Dashboard/Dashboard.jsx";
 import Header from "./Header/Header.jsx";
+import Register from './Register/Register';
+import Contact from './contact/Contact.jsx'
 import Login from './login-register/Login.jsx';
 import LocalFood from "./Food/LocalFood.jsx";
 import SectionA from "./SectionA/SectionA.jsx";
@@ -20,6 +22,14 @@ function App() {
   return (
     <div className="container-fluid">
       <Header />
+      {/* <Dashboard /> */}
+      
+        
+      {/* <Route path="/" component={Dashboard} /> */}
+
+      <Route path="/register" component={Register} />
+      <Route path="/contact" component={Contact} />
+        {/* <Route exact path="/" component={Dashboard} /> */}
       {/* <SectionA /> */}
 
       <Switch>
