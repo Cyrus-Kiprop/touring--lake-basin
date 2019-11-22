@@ -143,3 +143,21 @@
     flex-basis: auto;
   }
 }
+
+.earings {
+  display: flex;
+}
+
+.about-text {
+  text-align: center;
+  color: purple;
+}
+h4 {
+  color: purple;
+  text-align: center;
+}
+
+p {
+  color: grey;
+  text-align: center;
+}
