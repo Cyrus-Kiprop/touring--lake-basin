@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Dashboard from "./Dashboard/Dashboard.jsx";
 import Header from "./Header/Header.jsx";
+import Login from './login-register/Login.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Dashboard />
       <Switch>
+      <Route path="/login" component={Login} />
         {/* <Route exact path="/" component={Dashboard} /> */}
         {/* <Route path="/about" component={AboutPage} />
         <Route path="/courses" component={CoursesPage} />

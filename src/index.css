@@ -6,3 +6,9 @@
 nav {
   padding: 20px 0 20px 0;
 }
+
+.login {
+  width: 60%;
+  border-radius: solid 3px;
+  background-color: white;
+}    
